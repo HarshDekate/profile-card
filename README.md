@@ -63,11 +63,10 @@ Experience the digital trip: [Live Demo](https://harshdekate.github.io/profile-c
 Unleash your creativity by personalizing the HTML and CSS:
 
 <div class="profile-card">
-  <img src="your-profile-image.jpg" alt="Your Name">
   <h2>Harsh Dekate</h2>
   <p>Mind Explorer</p>
   <ul>
-    <li><a href="[https://www.linkedin.com/in/harsh-dekate-b54745237/)">LinkedIn</a></li>
+    <li><a href="https://www.linkedin.com/in/harsh-dekate-b54745237/">LinkedIn</a></li>
     
     <!-- Add more cosmic links as you see fit -->
   </ul>
@@ -85,9 +84,8 @@ Join the psychedelic revolution! Whether you're a design guru or a code wizard, 
 
 This project is licensed under the MIT License. Check out the [LICENSE](LICENSE) file for the far-out details.
 
----
+
 
 <p align="center">
   Crafted with cosmic love by Harsh Dekate 🌌🪐
 </p>
-```
