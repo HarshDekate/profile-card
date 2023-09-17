@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+i{ 
+    color: #e2fbeb;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+i:hover{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #3e2b3a, #35413b);
+}
+
+.card{
+    position: relative;
+    width: 380px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: #a36970;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card__1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1.2rem;
+    gap: 10px;
+}
+
+.card__1 .ham{
+    display: flex;
+    justify-content: space-between;
+    gap: 17rem;
+}
+
+.card__1 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 5px solid #ecfff3;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card__1 img:hover{
+    animation: anim 1s forwards;
+}
+
+
+@keyframes anim{
+    0%{
+        scale: 100%;
+    }
+    20%{
+        scale: 105%;
+    }
+    40%{
+        scale: 100%;
+    }
+}
+
+.content{
+    text-align: center;
+    color: #ecfff3;
+}
+
+.content h1{
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 4px rgb(7, 13, 10);
+}
+
+.content p{
+    font-size: 16px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card__1 a{
+    position: absolute;
+    top: 66%;
+    text-decoration: none;
+    padding: 8px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222b4c;
+    background: #d6bec1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 0.2s;
+}
+
+.card__1 a:hover{
+    background-color: #dff8ed;
+}
+
+.card__2{
+    background-color: #d6bec1;
+    border-radius: 23px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__2 i{
+    padding: 10px 12.5px;
+    background-color: #222b4c;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.card__2 i:hover{
+    background: #ecfff3;
+    color: #222b4c;
+}
+
+.card__2 p{
+    font-size: 1.1rem;
+    color: #222b4c;
+}
