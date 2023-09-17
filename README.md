@@ -64,16 +64,14 @@ Unleash your creativity by personalizing the HTML and CSS:
 
 <div class="profile-card">
   <img src="your-profile-image.jpg" alt="Your Name">
-  <h2>Your Name</h2>
+  <h2>Harsh Dekate</h2>
   <p>Mind Explorer</p>
   <ul>
-    <li><a href="[https://linkedin.com/your-linkedin-profile](https://www.linkedin.com/in/harsh-dekate-b54745237/)">LinkedIn</a></li>
+    <li><a href="[https://www.linkedin.com/in/harsh-dekate-b54745237/)">LinkedIn</a></li>
     
     <!-- Add more cosmic links as you see fit -->
   </ul>
 </div>
-```
-```html
 
 Let your digital spirit soar by adding your own unique touch.
 
@@ -90,6 +88,6 @@ This project is licensed under the MIT License. Check out the [LICENSE](LICENSE)
 ---
 
 <p align="center">
-  Crafted with cosmic love by Your Name 🌌🪐
+  Crafted with cosmic love by Harsh Dekate 🌌🪐
 </p>
 ```
