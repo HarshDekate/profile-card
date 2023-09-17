@@ -68,7 +68,7 @@ Unleash your creativity by personalizing the HTML and CSS:
   <ul>
     <li><a href="https://www.linkedin.com/in/harsh-dekate-b54745237/">LinkedIn</a></li>
     
-    <!-- Add more cosmic links as you see fit -->
+  
   </ul>
 </div>
 
